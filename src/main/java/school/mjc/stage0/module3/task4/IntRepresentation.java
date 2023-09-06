@@ -2,18 +2,10 @@ package school.mjc.stage0.module3.task4;
 
 public class IntRepresentation {
     public static void main(String[] args) {
+        int[] intRepresentation = {99, 104, 97, 114};
 
-
-        int c = 'c';
-        int h = 'h';
-        int a = 'a';
-        int r = 'r';
-
-
-        System.out.println((char) c);
-        System.out.println((char) h);
-        System.out.println((char) a);
-        System.out.println((char) r);
+        for (int i : intRepresentation) {
+            System.out.print((char)i);
+        }
     }
-
 }
